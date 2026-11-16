@@ -9,6 +9,8 @@ __pycache__/
 # Large local datasets and extracted OpenCLIP feature caches
 data/
 features/
+feature/aug_feature/
+feature/debiased/*.pt
 
 # New generated runs are local by default. The verified final artifacts already
 # committed under runs/ were force-added intentionally for report traceability.
