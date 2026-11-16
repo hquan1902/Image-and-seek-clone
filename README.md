@@ -2,6 +2,8 @@
 
 Nhánh này là bản bàn giao tối giản phục vụ đọc code, viết báo cáo và kiểm tra kết quả cuối. Nó chỉ chứa pipeline đã tạo ra phương pháp được chọn; các thử nghiệm LoRA, partial-backbone và các mô hình không được chọn đã được loại khỏi nhánh.
 
+Toàn bộ cấu trúc mã nguồn của dự án Imagine-and-Seek gốc vẫn được giữ nguyên, gồm `AutoGPTQ/`, `CLIP-main/`, `GLIP/`, `Grounded-Segment-Anything/`, `MIGC/`, `layout_utils/`, `predictor/`, `prompt/` và các script gốc. Nội dung README ban đầu được lưu tại [README_ORIGINAL.md](README_ORIGINAL.md). Việc tinh giản chỉ áp dụng cho các file nghiên cứu bổ sung của nhóm: nhánh này giữ pipeline cuối và không giữ các nhánh thử nghiệm LoRA/partial-backbone thất bại.
+
 ## Phương pháp cuối
 
 ```text
