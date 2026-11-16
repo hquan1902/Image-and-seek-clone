@@ -1,0 +1,36 @@
+{
+  "method": "supervised_adapter",
+  "image_weight": null,
+  "checkpoint": "runs\\student_multidomain_group2_seed123\\best.pt",
+  "metadata": {
+    "dataset": "circo",
+    "split": "val",
+    "category": null,
+    "model": "ViT-g-14",
+    "pretrained": "C:/Users/ADMIN/.cache/huggingface/hub/models--laion--CLIP-ViT-g-14-laion2B-s12B-b42K/snapshots/4b0305adc6802b2632e11cbe6606a9bdd43d35c9/open_clip_pytorch_model.bin",
+    "preprocess_type": "targetpad",
+    "preprocess_signature": "targetpad-r1.25-resize224-center224-clip-meanstd-v1",
+    "preprocess": "Compose(\n    <__main__.TargetPad object at 0x0000019EC197B6D0>\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    <function targetpad_transform.<locals>.<lambda> at 0x0000019EC5D0CE50>\n    ToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+    "torch": "2.5.1+cu121",
+    "annotation_sha256": "26839fc8adff8d8a360d6fc469c46db18732c72ce28a731d29f11930b01c645c",
+    "image_dtype": "float32",
+    "model_precision": "fp16",
+    "normalization": "L2",
+    "seed": 42,
+    "legacy_gallery": "feature\\aug_feature\\circo_test_G.npz",
+    "legacy_gallery_sha256": "257b74355c5069b40f8b21fb3a719c2de96449a258f1cfc5c88d85aa7307ef8c",
+    "checkpoint_seed": 123,
+    "checkpoint_epoch": 20
+  },
+  "metrics_fraction": {
+    "R@5": 0.35,
+    "mAP@5": 0.19474368686868693,
+    "R@10": 0.4727272727272727,
+    "mAP@10": 0.2047007654492774,
+    "R@25": 0.6409090909090909,
+    "mAP@25": 0.2260282627152387,
+    "R@50": 0.7227272727272728,
+    "mAP@50": 0.23428510095842767
+  },
+  "base_strategy": "per-query gallery dispersion"
+}

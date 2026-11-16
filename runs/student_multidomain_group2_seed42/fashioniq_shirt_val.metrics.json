@@ -1,0 +1,26 @@
+{
+  "method": "supervised_adapter",
+  "image_weight": null,
+  "checkpoint": "runs\\student_multidomain_group2_seed42\\best.pt",
+  "metadata": {
+    "dataset": "fashioniq",
+    "split": "val",
+    "category": "shirt",
+    "model": "ViT-g-14",
+    "pretrained": "C:\\Users\\ADMIN\\.cache\\huggingface\\hub\\models--laion--CLIP-ViT-g-14-laion2B-s12B-b42K\\snapshots\\4b0305adc6802b2632e11cbe6606a9bdd43d35c9\\open_clip_pytorch_model.bin",
+    "preprocess_type": "targetpad",
+    "preprocess_signature": "targetpad-r1.25-resize224-center224-clip-meanstd-v1",
+    "preprocess": "Compose(\n    <cache_research.TargetPad object at 0x0000017DBC4B9E40>\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    <function targetpad_transform.<locals>.<lambda> at 0x0000017DBC3E2710>\n    ToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+    "torch": "2.5.1+cu121",
+    "annotation_sha256": "3d3af94a53158829d9f12cd64b4c49fb46ceec249476273665ef5cbd8c615b08",
+    "image_dtype": "float32",
+    "model_precision": "fp16",
+    "normalization": "L2",
+    "seed": 42
+  },
+  "metrics_fraction": {
+    "R@10": 0.4646712463199215,
+    "R@50": 0.6481844946025516
+  },
+  "base_strategy": "static:0.3"
+}

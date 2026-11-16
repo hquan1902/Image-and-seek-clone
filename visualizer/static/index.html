@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Imagine-and-Seek — Demo cải tiến CIRR</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">Bài tập lớn Xử lý ảnh · Composed Image Retrieval</p>
+      <h1>Demo cải tiến Imagine-and-Seek</h1>
+      <p class="subtitle">Đối chứng cùng giao thức CIRR validation: static fusion từ đặc trưng ảnh và text so với Group-aware Residual Adapter Ensemble.</p>
+    </div>
+    <div class="truth-badge">Kết quả validation thật · không chọn tay</div>
+  </header>
+
+  <main>
+    <section class="overview card">
+      <div class="section-heading">
+        <div><p class="step">01 · Kết quả định lượng</p><h2>Static fusion → adapter ensemble</h2></div>
+        <p id="dataset-meta" class="muted">Đang đọc dữ liệu…</p>
+      </div>
+      <div id="metrics" class="metrics"></div>
+      <div class="method-flow">
+        <div><span>Đầu vào</span><b>Ảnh tham chiếu + văn bản sửa đổi</b></div><i>→</i>
+        <div><span>Tiền xử lý</span><b>TargetPad + ViT-g/14</b></div><i>→</i>
+        <div><span>Cải tiến</span><b>Residual adapter + group-hard loss</b></div><i>→</i>
+        <div><span>Ổn định</span><b>Ensemble 3 seed</b></div><i>→</i>
+        <div><span>Đầu ra</span><b>Xếp hạng cosine similarity</b></div>
+      </div>
+    </section>
+
+    <section class="case-toolbar card">
+      <div><p class="step">02 · Phân tích định tính</p><h2>Kiểm tra từng truy vấn</h2></div>
+      <div class="controls">
+        <label>Loại trường hợp
+          <select id="status-filter"><option value="improved">Cải thiện thứ hạng</option><option value="regressed">Suy giảm thứ hạng</option><option value="unchanged">Không đổi</option><option value="all">Tất cả</option></select>
+        </label>
+        <label>Tìm pair ID / caption<input id="search" type="search" placeholder="Ví dụ: bottles"></label>
+        <label>Chọn truy vấn<select id="case-select"></select></label>
+      </div>
+      <div id="case-counts" class="case-counts"></div>
+    </section>
+
+    <section id="query-card" class="query card">
+      <div class="section-heading">
+        <div><p class="step">Truy vấn đang xem</p><h2 id="caption">—</h2></div>
+        <div id="rank-summary" class="rank-summary"></div>
+      </div>
+      <div class="query-images">
+        <figure><img id="reference-image" alt="Ảnh tham chiếu"><figcaption>Ảnh tham chiếu <code id="reference-id"></code></figcaption></figure>
+        <div class="plus">+</div>
+        <div class="text-query"><span>Yêu cầu biến đổi</span><strong id="caption-copy">—</strong></div>
+        <div class="plus">→</div>
+        <figure class="ground-truth"><img id="target-image" alt="Ảnh ground truth"><figcaption>Ground truth <code id="target-id"></code></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="comparison">
+      <article class="result-panel card baseline-panel">
+        <div class="panel-title"><div><p class="step">Đối chứng nội bộ · không dùng ảnh proxy</p><h2>Static fusion · w<sub>image</sub>=0.2</h2></div><span id="baseline-rank" class="rank-pill"></span></div>
+        <div id="baseline-grid" class="result-grid"></div>
+      </article>
+      <article class="result-panel card improved-panel">
+        <div class="panel-title"><div><p class="step">Phương pháp chính</p><h2>Group-aware adapter ensemble</h2></div><span id="improved-rank" class="rank-pill good"></span></div>
+        <div id="improved-grid" class="result-grid"></div>
+      </article>
+    </section>
+
+    <section class="legend card">
+      <b>Cách đọc demo:</b><span><i class="dot target"></i> Ground truth chính xác</span><span><i class="dot group"></i> Ảnh cùng nhóm khó</span>
+      <span>R@K tăng nghĩa là ground truth xuất hiện trong Top-K ở nhiều truy vấn hơn. Hãy trình bày cả ca cải thiện và ca suy giảm.</span>
+    </section>
+  </main>
+  <footer>Dữ liệu: CIRR validation · Kết quả đọc từ <code>runs/</code> · Đây là đối chứng static fusion cùng backbone, không phải bản tái lập đầy đủ pipeline proxy của Imagine-and-Seek.</footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>

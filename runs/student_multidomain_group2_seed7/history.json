@@ -1,0 +1,914 @@
+[
+  {
+    "epoch": 0,
+    "validation": {
+      "cirr": 0.3358048313800526,
+      "dress": 0.3713435795736242,
+      "shirt": 0.3788027477919529,
+      "toptee": 0.44416114227434983,
+      "cirr_group": 0.6443434585027505
+    },
+    "selection_score": 1.0,
+    "label": "zero-residual strong static baselines"
+  },
+  {
+    "epoch": 1,
+    "loss": 8.823651492758641,
+    "domain_losses": {
+      "cirr": 9.309072774251302,
+      "dress": 8.428572271023578,
+      "shirt": 8.364795978913602,
+      "toptee": 8.172511650298858
+    },
+    "validation": {
+      "cirr": 0.34776369289643627,
+      "dress": 0.39067922657411996,
+      "shirt": 0.43719332679097156,
+      "toptee": 0.4987251402345742,
+      "cirr_group": 0.649844534800287
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0356125356125356,
+      "dress": 1.0520694259012016,
+      "shirt": 1.1541450777202074,
+      "toptee": 1.1228473019517795
+    },
+    "selection_score": 1.091168585296431,
+    "eligible": true,
+    "best_score": 1.091168585296431,
+    "best_composite_score": 1.091168585296431,
+    "checkpoint_updated": true,
+    "composite_checkpoint_updated": true,
+    "seconds": 3.4038060000166297
+  },
+  {
+    "epoch": 2,
+    "loss": 8.50978806762304,
+    "domain_losses": {
+      "cirr": 8.983027403937445,
+      "dress": 8.153622305701948,
+      "shirt": 8.052697015486075,
+      "toptee": 7.854486246709223
+    },
+    "validation": {
+      "cirr": 0.35230806027266204,
+      "dress": 0.3852255825483391,
+      "shirt": 0.43866535819430813,
+      "toptee": 0.4946455889852116,
+      "cirr_group": 0.6510404209519254
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0491452991452992,
+      "dress": 1.0373831775700935,
+      "shirt": 1.1580310880829014,
+      "toptee": 1.113662456946039
+    },
+    "selection_score": 1.0895555054360833,
+    "eligible": true,
+    "best_score": 1.091168585296431,
+    "best_composite_score": 1.091168585296431,
+    "checkpoint_updated": false,
+    "composite_checkpoint_updated": false,
+    "seconds": 2.758077200036496
+  },
+  {
+    "epoch": 3,
+    "loss": 8.420580254038704,
+    "domain_losses": {
+      "cirr": 8.869369538201227,
+      "dress": 8.098143226540676,
+      "shirt": 7.977153848461699,
+      "toptee": 7.7931389441856975
+    },
+    "validation": {
+      "cirr": 0.35374312365462807,
+      "dress": 0.3971244422409519,
+      "shirt": 0.4445534838076546,
+      "toptee": 0.49770525242223357,
+      "cirr_group": 0.65056206649127
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0534188034188035,
+      "dress": 1.069425901201602,
+      "shirt": 1.173575129533679,
+      "toptee": 1.1205510907003444
+    },
+    "selection_score": 1.1042427312136072,
+    "eligible": true,
+    "best_score": 1.1042427312136072,
+    "best_composite_score": 1.1042427312136072,
+    "checkpoint_updated": true,
+    "composite_checkpoint_updated": true,
+    "seconds": 2.7436336000682786
+  },
+  {
+    "epoch": 4,
+    "loss": 8.373083618920615,
+    "domain_losses": {
+      "cirr": 8.819574919806586,
+      "dress": 8.054439726648674,
+      "shirt": 7.929570297193626,
+      "toptee": 7.748992565128353
+    },
+    "validation": {
+      "cirr": 0.3566132504185602,
+      "dress": 0.39910758552305403,
+      "shirt": 0.4465161923454367,
+      "toptee": 0.506374298827129,
+      "cirr_group": 0.6522363071035637
+    },
+    "relative_to_baseline": {
+      "cirr": 1.061965811965812,
+      "dress": 1.074766355140187,
+      "shirt": 1.1787564766839378,
+      "toptee": 1.140068886337543
+    },
+    "selection_score": 1.1138893825318699,
+    "eligible": true,
+    "best_score": 1.1138893825318699,
+    "best_composite_score": 1.1138893825318699,
+    "checkpoint_updated": true,
+    "composite_checkpoint_updated": true,
+    "seconds": 2.7680709999985993
+  },
+  {
+    "epoch": 5,
+    "loss": 8.330806341455402,
+    "domain_losses": {
+      "cirr": 8.771704482184516,
+      "dress": 8.018760767357492,
+      "shirt": 7.888515412270486,
+      "toptee": 7.716178626614017
+    },
+    "validation": {
+      "cirr": 0.3546998325759388,
+      "dress": 0.4090233019335647,
+      "shirt": 0.44896957801766435,
+      "toptee": 0.5033146353901071,
+      "cirr_group": 0.6555847883281511
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0562678062678064,
+      "dress": 1.1014686248331107,
+      "shirt": 1.1852331606217616,
+      "toptee": 1.1331802525832377
+    },
+    "selection_score": 1.1190374610764793,
+    "eligible": true,
+    "best_score": 1.1190374610764793,
+    "best_composite_score": 1.1190374610764793,
+    "checkpoint_updated": true,
+    "composite_checkpoint_updated": true,
+    "seconds": 2.7991202999837697
+  },
+  {
+    "epoch": 6,
+    "loss": 8.302381969275777,
+    "domain_losses": {
+      "cirr": 8.747026440938313,
+      "dress": 7.985363163784731,
+      "shirt": 7.857203702338437,
+      "toptee": 7.684082322020631
+    },
+    "validation": {
+      "cirr": 0.35565654149724946,
+      "dress": 0.41298958849776896,
+      "shirt": 0.45289499509322867,
+      "toptee": 0.5150433452320244,
+      "cirr_group": 0.6553456110978235
+    },
+    "relative_to_baseline": {
+      "cirr": 1.059116809116809,
+      "dress": 1.1121495327102804,
+      "shirt": 1.1955958549222798,
+      "toptee": 1.1595866819747416
+    },
+    "selection_score": 1.1316122196810277,
+    "eligible": true,
+    "best_score": 1.1316122196810277,
+    "best_composite_score": 1.1316122196810277,
+    "checkpoint_updated": true,
+    "composite_checkpoint_updated": true,
+    "seconds": 2.7410428000148386
+  },
+  {
+    "epoch": 7,
+    "loss": 8.271776273022962,
+    "domain_losses": {
+      "cirr": 8.719742991977268,
+      "dress": 7.95120934523835,
+      "shirt": 7.820520458829461,
+      "toptee": 7.652867301193984
+    },
+    "validation": {
+      "cirr": 0.3570916048792155,
+      "dress": 0.4154685176003966,
+      "shirt": 0.4548577036310108,
+      "toptee": 0.5084140744518103,
+      "cirr_group": 0.6519971298732361
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0633903133903133,
+      "dress": 1.1188251001335112,
+      "shirt": 1.200777202072539,
+      "toptee": 1.1446613088404134
+    },
+    "selection_score": 1.1319134811091942,
+    "eligible": true,
+    "best_score": 1.1319134811091942,
+    "best_composite_score": 1.1319134811091942,
+    "checkpoint_updated": true,
+    "composite_checkpoint_updated": true,
+    "seconds": 2.7715290000196546
+  },
+  {
+    "epoch": 8,
+    "loss": 8.236895919158627,
+    "domain_losses": {
+      "cirr": 8.674214878506131,
+      "dress": 7.926784160123234,
+      "shirt": 7.797359368739984,
+      "toptee": 7.628728537792926
+    },
+    "validation": {
+      "cirr": 0.3563740731882325,
+      "dress": 0.4144769459593456,
+      "shirt": 0.4573110893032385,
+      "toptee": 0.5104538500764916,
+      "cirr_group": 0.65056206649127
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0612535612535612,
+      "dress": 1.116154873164219,
+      "shirt": 1.2072538860103628,
+      "toptee": 1.1492537313432836
+    },
+    "selection_score": 1.1334790129428567,
+    "eligible": true,
+    "best_score": 1.1334790129428567,
+    "best_composite_score": 1.1334790129428567,
+    "checkpoint_updated": true,
+    "composite_checkpoint_updated": true,
+    "seconds": 2.738088299985975
+  },
+  {
+    "epoch": 9,
+    "loss": 8.222183117244343,
+    "domain_losses": {
+      "cirr": 8.666305803934733,
+      "dress": 7.900497537706928,
+      "shirt": 7.771082695374783,
+      "toptee": 7.616384422862446
+    },
+    "validation": {
+      "cirr": 0.3585266682611815,
+      "dress": 0.4179474467030243,
+      "shirt": 0.4607458292443572,
+      "toptee": 0.5104538500764916,
+      "cirr_group": 0.649127003109304
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0676638176638176,
+      "dress": 1.1255006675567425,
+      "shirt": 1.216321243523316,
+      "toptee": 1.1492537313432836
+    },
+    "selection_score": 1.13968486502179,
+    "eligible": true,
+    "best_score": 1.13968486502179,
+    "best_composite_score": 1.13968486502179,
+    "checkpoint_updated": true,
+    "composite_checkpoint_updated": true,
+    "seconds": 2.8243402000516653
+  },
+  {
+    "epoch": 10,
+    "loss": 8.189792236339738,
+    "domain_losses": {
+      "cirr": 8.622528694152832,
+      "dress": 7.868578994483278,
+      "shirt": 7.755448870417647,
+      "toptee": 7.60242071885329
+    },
+    "validation": {
+      "cirr": 0.35756995933987085,
+      "dress": 0.421417947446703,
+      "shirt": 0.4607458292443572,
+      "toptee": 0.5114737378888322,
+      "cirr_group": 0.6500837120306147
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0648148148148149,
+      "dress": 1.1348464619492658,
+      "shirt": 1.216321243523316,
+      "toptee": 1.1515499425947187
+    },
+    "selection_score": 1.141883115720529,
+    "eligible": true,
+    "best_score": 1.141883115720529,
+    "best_composite_score": 1.141883115720529,
+    "checkpoint_updated": true,
+    "composite_checkpoint_updated": true,
+    "seconds": 2.81395760003943
+  },
+  {
+    "epoch": 11,
+    "loss": 8.17381950194495,
+    "domain_losses": {
+      "cirr": 8.607487299601237,
+      "dress": 7.854965744321309,
+      "shirt": 7.739006272142163,
+      "toptee": 7.581522534110329
+    },
+    "validation": {
+      "cirr": 0.3599617316431476,
+      "dress": 0.4209221616261775,
+      "shirt": 0.465161923454367,
+      "toptee": 0.5140234574196838,
+      "cirr_group": 0.6472135852666826
+    },
+    "relative_to_baseline": {
+      "cirr": 1.071937321937322,
+      "dress": 1.1335113484646195,
+      "shirt": 1.2279792746113989,
+      "toptee": 1.1572904707233065
+    },
+    "selection_score": 1.1476796039341617,
+    "eligible": true,
+    "best_score": 1.1476796039341617,
+    "best_composite_score": 1.1476796039341617,
+    "checkpoint_updated": true,
+    "composite_checkpoint_updated": true,
+    "seconds": 2.88794159993995
+  },
+  {
+    "epoch": 12,
+    "loss": 8.157329275457728,
+    "domain_losses": {
+      "cirr": 8.587390646192762,
+      "dress": 7.8439901203738716,
+      "shirt": 7.7219472156162485,
+      "toptee": 7.571185118001658
+    },
+    "validation": {
+      "cirr": 0.3590050227218369,
+      "dress": 0.4224095190877541,
+      "shirt": 0.46123650637880276,
+      "toptee": 0.5094339622641509,
+      "cirr_group": 0.6510404209519254
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0690883190883191,
+      "dress": 1.1375166889185582,
+      "shirt": 1.217616580310881,
+      "toptee": 1.1469575200918485
+    },
+    "selection_score": 1.1427947771024016,
+    "eligible": true,
+    "best_score": 1.1476796039341617,
+    "best_composite_score": 1.1476796039341617,
+    "checkpoint_updated": false,
+    "composite_checkpoint_updated": false,
+    "seconds": 2.7004652000032365
+  },
+  {
+    "epoch": 13,
+    "loss": 8.144042905014008,
+    "domain_losses": {
+      "cirr": 8.576324402703179,
+      "dress": 7.827261083088224,
+      "shirt": 7.7077577178542676,
+      "toptee": 7.555425832655047
+    },
+    "validation": {
+      "cirr": 0.3599617316431476,
+      "dress": 0.4194348041646009,
+      "shirt": 0.45829244357212956,
+      "toptee": 0.5084140744518103,
+      "cirr_group": 0.646974408036355
+    },
+    "relative_to_baseline": {
+      "cirr": 1.071937321937322,
+      "dress": 1.129506008010681,
+      "shirt": 1.2098445595854923,
+      "toptee": 1.1446613088404134
+    },
+    "selection_score": 1.1389872995934773,
+    "eligible": true,
+    "best_score": 1.1476796039341617,
+    "best_composite_score": 1.1476796039341617,
+    "checkpoint_updated": false,
+    "composite_checkpoint_updated": false,
+    "seconds": 2.795371000072919
+  },
+  {
+    "epoch": 14,
+    "loss": 8.124570137760156,
+    "domain_losses": {
+      "cirr": 8.547013326009115,
+      "dress": 7.815633153716226,
+      "shirt": 7.703027230868799,
+      "toptee": 7.54382820062704
+    },
+    "validation": {
+      "cirr": 0.35924419995216456,
+      "dress": 0.41993058998512645,
+      "shirt": 0.4631992149165849,
+      "toptee": 0.5109637939826619,
+      "cirr_group": 0.6467352308060272
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0698005698005697,
+      "dress": 1.1308411214953271,
+      "shirt": 1.22279792746114,
+      "toptee": 1.150401836969001
+    },
+    "selection_score": 1.1434603639315095,
+    "eligible": true,
+    "best_score": 1.1476796039341617,
+    "best_composite_score": 1.1476796039341617,
+    "checkpoint_updated": false,
+    "composite_checkpoint_updated": false,
+    "seconds": 2.7846215999452397
+  },
+  {
+    "epoch": 15,
+    "loss": 8.119799150972883,
+    "domain_losses": {
+      "cirr": 8.548580288357204,
+      "dress": 7.800491155817196,
+      "shirt": 7.687811321462101,
+      "toptee": 7.540503981396869
+    },
+    "validation": {
+      "cirr": 0.3585266682611815,
+      "dress": 0.41993058998512645,
+      "shirt": 0.4646712463199215,
+      "toptee": 0.5145334013258541,
+      "cirr_group": 0.6486486486486487
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0676638176638176,
+      "dress": 1.1308411214953271,
+      "shirt": 1.2266839378238343,
+      "toptee": 1.158438576349024
+    },
+    "selection_score": 1.1459068633330007,
+    "eligible": true,
+    "best_score": 1.1476796039341617,
+    "best_composite_score": 1.1476796039341617,
+    "checkpoint_updated": false,
+    "composite_checkpoint_updated": false,
+    "seconds": 2.8151193000376225
+  },
+  {
+    "epoch": 16,
+    "loss": 8.110559410665426,
+    "domain_losses": {
+      "cirr": 8.53757723151313,
+      "dress": 7.7916138684042515,
+      "shirt": 7.687849895374195,
+      "toptee": 7.527071231895394
+    },
+    "validation": {
+      "cirr": 0.3616359722554413,
+      "dress": 0.4229053049082796,
+      "shirt": 0.45829244357212956,
+      "toptee": 0.5130035696073432,
+      "cirr_group": 0.6496053575699593
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0769230769230769,
+      "dress": 1.1388518024032042,
+      "shirt": 1.2098445595854923,
+      "toptee": 1.1549942594718714
+    },
+    "selection_score": 1.145153424595911,
+    "eligible": true,
+    "best_score": 1.1476796039341617,
+    "best_composite_score": 1.1476796039341617,
+    "checkpoint_updated": false,
+    "composite_checkpoint_updated": false,
+    "seconds": 2.7697424000361934
+  },
+  {
+    "epoch": 17,
+    "loss": 8.09445696685939,
+    "domain_losses": {
+      "cirr": 8.518197043524848,
+      "dress": 7.784350459577645,
+      "shirt": 7.66765079280195,
+      "toptee": 7.516168733076616
+    },
+    "validation": {
+      "cirr": 0.3602009088734752,
+      "dress": 0.4194348041646009,
+      "shirt": 0.45976447497546613,
+      "toptee": 0.5150433452320244,
+      "cirr_group": 0.6472135852666826
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0726495726495726,
+      "dress": 1.129506008010681,
+      "shirt": 1.2137305699481866,
+      "toptee": 1.1595866819747416
+    },
+    "selection_score": 1.1438682081457954,
+    "eligible": true,
+    "best_score": 1.1476796039341617,
+    "best_composite_score": 1.1476796039341617,
+    "checkpoint_updated": false,
+    "composite_checkpoint_updated": false,
+    "seconds": 2.8313827000092715
+  },
+  {
+    "epoch": 18,
+    "loss": 8.079659345390112,
+    "domain_losses": {
+      "cirr": 8.501153262668186,
+      "dress": 7.767922697330178,
+      "shirt": 7.656991753409657,
+      "toptee": 7.505968902827976
+    },
+    "validation": {
+      "cirr": 0.3602009088734752,
+      "dress": 0.4209221616261775,
+      "shirt": 0.4646712463199215,
+      "toptee": 0.5145334013258541,
+      "cirr_group": 0.647691939727338
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0726495726495726,
+      "dress": 1.1335113484646195,
+      "shirt": 1.2266839378238343,
+      "toptee": 1.158438576349024
+    },
+    "selection_score": 1.1478208588217627,
+    "eligible": true,
+    "best_score": 1.1478208588217627,
+    "best_composite_score": 1.1478208588217627,
+    "checkpoint_updated": true,
+    "composite_checkpoint_updated": true,
+    "seconds": 2.820584100089036
+  },
+  {
+    "epoch": 19,
+    "loss": 8.085804252192796,
+    "domain_losses": {
+      "cirr": 8.517651959737142,
+      "dress": 7.761786914130699,
+      "shirt": 7.649386293261892,
+      "toptee": 7.5062569604887
+    },
+    "validation": {
+      "cirr": 0.36115761779478595,
+      "dress": 0.42439266236985623,
+      "shirt": 0.46123650637880276,
+      "toptee": 0.5160632330443651,
+      "cirr_group": 0.6472135852666826
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0754985754985755,
+      "dress": 1.142857142857143,
+      "shirt": 1.217616580310881,
+      "toptee": 1.1618828932261767
+    },
+    "selection_score": 1.149463797973194,
+    "eligible": true,
+    "best_score": 1.149463797973194,
+    "best_composite_score": 1.149463797973194,
+    "checkpoint_updated": true,
+    "composite_checkpoint_updated": true,
+    "seconds": 2.7557971999049187
+  },
+  {
+    "epoch": 20,
+    "loss": 8.07688342004449,
+    "domain_losses": {
+      "cirr": 8.508433490329319,
+      "dress": 7.7512257417441415,
+      "shirt": 7.645013070651746,
+      "toptee": 7.495400132666101
+    },
+    "validation": {
+      "cirr": 0.3623535039464243,
+      "dress": 0.4253842340109073,
+      "shirt": 0.4563297350343474,
+      "toptee": 0.5124936257011729,
+      "cirr_group": 0.6508012437215978
+    },
+    "relative_to_baseline": {
+      "cirr": 1.079059829059829,
+      "dress": 1.1455273698264352,
+      "shirt": 1.2046632124352332,
+      "toptee": 1.1538461538461537
+    },
+    "selection_score": 1.1457741412919127,
+    "eligible": true,
+    "best_score": 1.149463797973194,
+    "best_composite_score": 1.149463797973194,
+    "checkpoint_updated": false,
+    "composite_checkpoint_updated": false,
+    "seconds": 2.7811908000148833
+  },
+  {
+    "epoch": 21,
+    "loss": 8.070410776276745,
+    "domain_losses": {
+      "cirr": 8.503876365661622,
+      "dress": 7.740312482280938,
+      "shirt": 7.639460411983815,
+      "toptee": 7.4866176265103
+    },
+    "validation": {
+      "cirr": 0.3566132504185602,
+      "dress": 0.4263758056519584,
+      "shirt": 0.457801766437684,
+      "toptee": 0.5150433452320244,
+      "cirr_group": 0.6488878258789763
+    },
+    "relative_to_baseline": {
+      "cirr": 1.061965811965812,
+      "dress": 1.1481975967957276,
+      "shirt": 1.2085492227979275,
+      "toptee": 1.1595866819747416
+    },
+    "selection_score": 1.1445748283835522,
+    "eligible": true,
+    "best_score": 1.149463797973194,
+    "best_composite_score": 1.149463797973194,
+    "checkpoint_updated": false,
+    "composite_checkpoint_updated": false,
+    "seconds": 2.7703892000718042
+  },
+  {
+    "epoch": 22,
+    "loss": 8.062900445377739,
+    "domain_losses": {
+      "cirr": 8.497395521375868,
+      "dress": 7.7302289907794846,
+      "shirt": 7.63040602876342,
+      "toptee": 7.480118113297682
+    },
+    "validation": {
+      "cirr": 0.3582874910308539,
+      "dress": 0.42488844819038174,
+      "shirt": 0.4607458292443572,
+      "toptee": 0.5130035696073432,
+      "cirr_group": 0.648409471418321
+    },
+    "relative_to_baseline": {
+      "cirr": 1.066951566951567,
+      "dress": 1.144192256341789,
+      "shirt": 1.216321243523316,
+      "toptee": 1.1549942594718714
+    },
+    "selection_score": 1.1456148315721357,
+    "eligible": true,
+    "best_score": 1.149463797973194,
+    "best_composite_score": 1.149463797973194,
+    "checkpoint_updated": false,
+    "composite_checkpoint_updated": false,
+    "seconds": 2.808748400071636
+  },
+  {
+    "epoch": 23,
+    "loss": 8.054557902039376,
+    "domain_losses": {
+      "cirr": 8.483771152920193,
+      "dress": 7.727204463037731,
+      "shirt": 7.625622065961155,
+      "toptee": 7.479241374489311
+    },
+    "validation": {
+      "cirr": 0.3599617316431476,
+      "dress": 0.42786316311353495,
+      "shirt": 0.46418056918547596,
+      "toptee": 0.5145334013258541,
+      "cirr_group": 0.6474527624970103
+    },
+    "relative_to_baseline": {
+      "cirr": 1.071937321937322,
+      "dress": 1.1522029372496663,
+      "shirt": 1.2253886010362693,
+      "toptee": 1.158438576349024
+    },
+    "selection_score": 1.1519918591430705,
+    "eligible": true,
+    "best_score": 1.1519918591430705,
+    "best_composite_score": 1.1519918591430705,
+    "checkpoint_updated": true,
+    "composite_checkpoint_updated": true,
+    "seconds": 2.7333789999829605
+  },
+  {
+    "epoch": 24,
+    "loss": 8.042641692545024,
+    "domain_losses": {
+      "cirr": 8.464137676662869,
+      "dress": 7.723141223665268,
+      "shirt": 7.6218918789118755,
+      "toptee": 7.4751330415685695
+    },
+    "validation": {
+      "cirr": 0.3582874910308539,
+      "dress": 0.4268715914724839,
+      "shirt": 0.4661432777232581,
+      "toptee": 0.5181030086690463,
+      "cirr_group": 0.6488878258789763
+    },
+    "relative_to_baseline": {
+      "cirr": 1.066951566951567,
+      "dress": 1.1495327102803738,
+      "shirt": 1.2305699481865284,
+      "toptee": 1.1664753157290468
+    },
+    "selection_score": 1.153382385286879,
+    "eligible": true,
+    "best_score": 1.153382385286879,
+    "best_composite_score": 1.153382385286879,
+    "checkpoint_updated": true,
+    "composite_checkpoint_updated": true,
+    "seconds": 2.7845414000330493
+  },
+  {
+    "epoch": 25,
+    "loss": 8.03822987089768,
+    "domain_losses": {
+      "cirr": 8.464048496670193,
+      "dress": 7.715939187963704,
+      "shirt": 7.611602719757016,
+      "toptee": 7.465968750240086
+    },
+    "validation": {
+      "cirr": 0.3582874910308539,
+      "dress": 0.4258800198314328,
+      "shirt": 0.46270853778213933,
+      "toptee": 0.5155532891381948,
+      "cirr_group": 0.6479311169576656
+    },
+    "relative_to_baseline": {
+      "cirr": 1.066951566951567,
+      "dress": 1.1468624833110814,
+      "shirt": 1.221502590673575,
+      "toptee": 1.1607347876004592
+    },
+    "selection_score": 1.1490128571341707,
+    "eligible": true,
+    "best_score": 1.153382385286879,
+    "best_composite_score": 1.153382385286879,
+    "checkpoint_updated": false,
+    "composite_checkpoint_updated": false,
+    "seconds": 2.7483502000104636
+  },
+  {
+    "epoch": 26,
+    "loss": 8.033642802219783,
+    "domain_losses": {
+      "cirr": 8.460631884257,
+      "dress": 7.717147359632908,
+      "shirt": 7.604561961035884,
+      "toptee": 7.454110697766284
+    },
+    "validation": {
+      "cirr": 0.36091844056445826,
+      "dress": 0.428854734754586,
+      "shirt": 0.46270853778213933,
+      "toptee": 0.5196328403875574,
+      "cirr_group": 0.6464960535756996
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0747863247863247,
+      "dress": 1.1548731642189587,
+      "shirt": 1.221502590673575,
+      "toptee": 1.1699196326061998
+    },
+    "selection_score": 1.1552704280712645,
+    "eligible": true,
+    "best_score": 1.1552704280712645,
+    "best_composite_score": 1.1552704280712645,
+    "checkpoint_updated": true,
+    "composite_checkpoint_updated": true,
+    "seconds": 2.8485098999226466
+  },
+  {
+    "epoch": 27,
+    "loss": 8.029879584966869,
+    "domain_losses": {
+      "cirr": 8.45775545416938,
+      "dress": 7.698577681918292,
+      "shirt": 7.6078322279065,
+      "toptee": 7.4559518907453635
+    },
+    "validation": {
+      "cirr": 0.3606792633341306,
+      "dress": 0.43232523549826474,
+      "shirt": 0.46418056918547596,
+      "toptee": 0.517593064762876,
+      "cirr_group": 0.649127003109304
+    },
+    "relative_to_baseline": {
+      "cirr": 1.074074074074074,
+      "dress": 1.164218958611482,
+      "shirt": 1.2253886010362693,
+      "toptee": 1.1653272101033294
+    },
+    "selection_score": 1.1572522109562886,
+    "eligible": true,
+    "best_score": 1.1572522109562886,
+    "best_composite_score": 1.1572522109562886,
+    "checkpoint_updated": true,
+    "composite_checkpoint_updated": true,
+    "seconds": 2.7423291000304744
+  },
+  {
+    "epoch": 28,
+    "loss": 8.019907577487336,
+    "domain_losses": {
+      "cirr": 8.443700614929199,
+      "dress": 7.6983013435115195,
+      "shirt": 7.5921429061096575,
+      "toptee": 7.454452388603371
+    },
+    "validation": {
+      "cirr": 0.3597225544128199,
+      "dress": 0.4298463063956371,
+      "shirt": 0.4631992149165849,
+      "toptee": 0.5186129525752168,
+      "cirr_group": 0.648409471418321
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0712250712250713,
+      "dress": 1.1575433911882511,
+      "shirt": 1.22279792746114,
+      "toptee": 1.1676234213547647
+    },
+    "selection_score": 1.1547974528073066,
+    "eligible": true,
+    "best_score": 1.1572522109562886,
+    "best_composite_score": 1.1572522109562886,
+    "checkpoint_updated": false,
+    "composite_checkpoint_updated": false,
+    "seconds": 2.8081714999862015
+  },
+  {
+    "epoch": 29,
+    "loss": 8.014457216727061,
+    "domain_losses": {
+      "cirr": 8.43762552218967,
+      "dress": 7.68843442555159,
+      "shirt": 7.59405565228796,
+      "toptee": 7.448159093790121
+    },
+    "validation": {
+      "cirr": 0.3604400861038029,
+      "dress": 0.42736737729300944,
+      "shirt": 0.46172718351324826,
+      "toptee": 0.5145334013258541,
+      "cirr_group": 0.647691939727338
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0733618233618234,
+      "dress": 1.15086782376502,
+      "shirt": 1.2189119170984455,
+      "toptee": 1.158438576349024
+    },
+    "selection_score": 1.1503950351435783,
+    "eligible": true,
+    "best_score": 1.1572522109562886,
+    "best_composite_score": 1.1572522109562886,
+    "checkpoint_updated": false,
+    "composite_checkpoint_updated": false,
+    "seconds": 2.778207099996507
+  },
+  {
+    "epoch": 30,
+    "loss": 8.006844999328031,
+    "domain_losses": {
+      "cirr": 8.426381452772352,
+      "dress": 7.688030823091716,
+      "shirt": 7.5863614075727455,
+      "toptee": 7.444515973871405
+    },
+    "validation": {
+      "cirr": 0.3597225544128199,
+      "dress": 0.4283589489340605,
+      "shirt": 0.4656526005888126,
+      "toptee": 0.5130035696073432,
+      "cirr_group": 0.6467352308060272
+    },
+    "relative_to_baseline": {
+      "cirr": 1.0712250712250713,
+      "dress": 1.1535380507343125,
+      "shirt": 1.2292746113989639,
+      "toptee": 1.1549942594718714
+    },
+    "selection_score": 1.152257998207555,
+    "eligible": true,
+    "best_score": 1.1572522109562886,
+    "best_composite_score": 1.1572522109562886,
+    "checkpoint_updated": false,
+    "composite_checkpoint_updated": false,
+    "seconds": 2.7593114000046626
+  }
+]

@@ -1,0 +1,9 @@
+# For CUDA 12.1, install torch/torchvision from the PyTorch cu121 index.
+torch==2.5.1
+torchvision==0.20.1
+numpy==1.26.4
+open_clip_torch==2.32.0
+matplotlib==3.10.7
+Pillow==11.1.0
+tqdm==4.67.1
+PyYAML==6.0.2

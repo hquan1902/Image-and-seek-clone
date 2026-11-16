@@ -1,0 +1,35 @@
+{
+  "baseline": "runs\\student_multidomain_hardneg_seed42\\fashioniq_toptee_static.json",
+  "candidate": "runs\\student_multidomain_group2_ensemble\\fashioniq_toptee_val.json",
+  "samples": 10000,
+  "seed": 42,
+  "unit": "fraction",
+  "metrics": {
+    "R@10": {
+      "baseline": 0.44416114227434983,
+      "candidate": 0.5196328403875574,
+      "delta": 0.07547169811320754,
+      "query_bootstrap_95ci": [
+        0.05864354920958695,
+        0.09280979092299847
+      ],
+      "reference_cluster_bootstrap_95ci": [
+        0.05828220858895705,
+        0.09289462463795903
+      ]
+    },
+    "R@50": {
+      "baseline": 0.6353901070882203,
+      "candidate": 0.7220805711371749,
+      "delta": 0.08669046404895461,
+      "query_bootstrap_95ci": [
+        0.06986231514533402,
+        0.10302141764405896
+      ],
+      "reference_cluster_bootstrap_95ci": [
+        0.06943056943056942,
+        0.10388995771046833
+      ]
+    }
+  }
+}

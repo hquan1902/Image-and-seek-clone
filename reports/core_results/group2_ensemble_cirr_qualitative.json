@@ -1,0 +1,64 @@
+{
+  "selection_rule": {
+    "improved": "ensemble target rank <=5 and static baseline rank >10",
+    "failure": "target absent from Top-50 for both methods"
+  },
+  "cases": [
+    {
+      "kind": "Improved",
+      "id": "12060",
+      "reference": "dev-244-0-img0",
+      "target": "dev-1028-1-img1",
+      "text": "show three bottles of soft drink",
+      "baseline_rank": 12,
+      "candidate_rank": 5,
+      "candidate_top3": [
+        "dev-459-1-img0",
+        "dev-558-3-img1",
+        "dev-244-3-img1"
+      ]
+    },
+    {
+      "kind": "Improved",
+      "id": "38666",
+      "reference": "dev-358-2-img0",
+      "target": "dev-1035-2-img1",
+      "text": "Make the color of bottle with dark blue instead of light color",
+      "baseline_rank": 12,
+      "candidate_rank": 1,
+      "candidate_top3": [
+        "dev-1035-2-img1",
+        "dev-1035-1-img1",
+        "dev-548-2-img1"
+      ]
+    },
+    {
+      "kind": "Failure",
+      "id": "12091",
+      "reference": "dev-104-0-img0",
+      "target": "dev-104-3-img1",
+      "text": "remove the lemon",
+      "baseline_rank": null,
+      "candidate_rank": null,
+      "candidate_top3": [
+        "dev-349-1-img0",
+        "dev-644-3-img1",
+        "dev-644-3-img0"
+      ]
+    },
+    {
+      "kind": "Failure",
+      "id": "38737",
+      "reference": "dev-359-1-img1",
+      "target": "dev-342-2-img1",
+      "text": "The dog has its face lifted up and has a collar.",
+      "baseline_rank": null,
+      "candidate_rank": null,
+      "candidate_top3": [
+        "dev-311-3-img0",
+        "dev-342-0-img0",
+        "dev-311-1-img1"
+      ]
+    }
+  ]
+}

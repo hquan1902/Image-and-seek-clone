@@ -1,0 +1,61 @@
+{
+  "baseline": "runs\\student_multidomain_hardneg_seed42\\cirr_static.json",
+  "candidate": "runs\\student_multidomain_group2_ensemble\\cirr_val.json",
+  "samples": 10000,
+  "seed": 42,
+  "unit": "fraction",
+  "metrics": {
+    "R@1": {
+      "baseline": 0.3358048313800526,
+      "candidate": 0.36474527624970104,
+      "delta": 0.028940444869648408,
+      "query_bootstrap_95ci": [
+        0.01698158335326477,
+        0.041138483616359724
+      ],
+      "reference_cluster_bootstrap_95ci": [
+        0.01690587713026481,
+        0.04121549705185117
+      ]
+    },
+    "R@5": {
+      "baseline": 0.6259268117675197,
+      "candidate": 0.6790241569002631,
+      "delta": 0.05309734513274336,
+      "query_bootstrap_95ci": [
+        0.04161683807701507,
+        0.06433867495814398
+      ],
+      "reference_cluster_bootstrap_95ci": [
+        0.041908694905532104,
+        0.06456916575262919
+      ]
+    },
+    "R@10": {
+      "baseline": 0.7455154269313561,
+      "candidate": 0.8010045443673762,
+      "delta": 0.05548911743602009,
+      "query_bootstrap_95ci": [
+        0.04544367376225783,
+        0.06529538387945467
+      ],
+      "reference_cluster_bootstrap_95ci": [
+        0.045062207140606665,
+        0.06552637918573838
+      ]
+    },
+    "R@50": {
+      "baseline": 0.9210715139918679,
+      "candidate": 0.9550346806983975,
+      "delta": 0.03396316670652954,
+      "query_bootstrap_95ci": [
+        0.0272662042573547,
+        0.040660129155704376
+      ],
+      "reference_cluster_bootstrap_95ci": [
+        0.027236395388798747,
+        0.04097189137684612
+      ]
+    }
+  }
+}

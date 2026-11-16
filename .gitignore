@@ -1,0 +1,22 @@
+# Local environments and Python caches
+.venv/
+.venv-ramf/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Large local datasets and extracted OpenCLIP feature caches
+data/
+features/
+
+# New generated runs are local by default. The verified final artifacts already
+# committed under runs/ were force-added intentionally for report traceability.
+runs/
+
+# Editor and temporary files
+.vscode/
+.idea/
+.tools/
+*.tmp
+*.bak

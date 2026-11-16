@@ -1,0 +1,5 @@
+{
+  "images_checked": 223325,
+  "failures": [],
+  "method": "Pillow RGB decode/load"
+}

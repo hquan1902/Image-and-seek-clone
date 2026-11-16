@@ -1,0 +1,49 @@
+{
+  "feature_dir": "features",
+  "output": "runs\\student_multidomain_group2_seed123",
+  "epochs": 30,
+  "batch_size": 128,
+  "samples_per_domain": 6000,
+  "cirr_samples": 18000,
+  "hidden": 64,
+  "dropout": 0.3,
+  "residual_scale": 0.1,
+  "residual_penalty": 0.01,
+  "lr": 5e-05,
+  "weight_decay": 0.001,
+  "temperature": 0.07,
+  "label_smoothing": 0.0,
+  "hard_negative_k": 32,
+  "hard_negative_weight": 0.5,
+  "hard_negative_margin": 0.05,
+  "cirr_group_loss_weight": 2.0,
+  "patience": 8,
+  "seed": 123,
+  "device": "cuda",
+  "domains": {
+    "cirr": [
+      "cirr_train_g14_targetpad.pt",
+      "cirr_val_g14_targetpad.pt",
+      0.2,
+      1
+    ],
+    "dress": [
+      "fashioniq_dress_train_g14_targetpad.pt",
+      "fashioniq_dress_val_g14_targetpad.pt",
+      0.2,
+      10
+    ],
+    "shirt": [
+      "fashioniq_shirt_train_g14_targetpad.pt",
+      "fashioniq_shirt_val_g14_targetpad.pt",
+      0.3,
+      10
+    ],
+    "toptee": [
+      "fashioniq_toptee_train_g14_targetpad.pt",
+      "fashioniq_toptee_val_g14_targetpad.pt",
+      0.3,
+      10
+    ]
+  }
+}
